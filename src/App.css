@@ -2,6 +2,7 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
+    height: 5000px;
 }
 
 .up__to {
@@ -16,4 +17,52 @@ body {
     height: 4px;
     width: 40%;
     background: #e6604d;
+}
+
+.box-1 {
+    position: relative;
+    height: 28rem;
+}
+
+.box-1 img {
+    position: absolute;
+    top: -5rem;
+}
+
+.box-4 {
+    position: relative;
+    height: 22rem;
+    margin-top: 18rem;
+}
+
+.box-4 img {
+    position: absolute;
+    top: -14rem;
+    left: 15%;
+}
+
+.box-5 {
+    position: relative;
+    height: 16rem;
+    /* width: 100%; */
+    margin-bottom: 12rem !important;
+}
+
+.box-5 img {
+    position: absolute;
+    bottom: -8rem;
+}
+
+.up-to-sub {
+    position: relative;
+}
+
+.up-to-sub::after {
+    content: "";
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    height: 4px;
+    width: 80%;
+    background: white;
 }
